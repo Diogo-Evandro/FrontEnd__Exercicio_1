@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    max-width: 1480px;
+    padding: 60px 4%;
+    justify-content: center;
+}
+
+.container .header h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.header__search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+input{
+    border: 1px solid white;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 70%;
+}
+
+button{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    width: 10%;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: .3s;
+    background-color: gray;
+    color: black;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: .3s;
+
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.txt{
+    color: black;
+}
+
+.txt h2{
+    margin: 12px;
+    text-align: center;
+}
+
+.txt p{
+    margin: 12px;
+    font-size: 14px;
+    text-align: center;
+}
